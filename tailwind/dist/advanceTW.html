@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+        .card-holder {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+
+
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            border: 2px solid #373535;
+            margin: 8px;
+            padding: 9px;
+            text-align: center;
+            width: 280px;
+            height: 300px;
+            background-color: #373535;
+            border-radius: 6px;
+        }
+
+        nav strong {
+            color: orange;
+        }
+
+        nav {
+            color: white;
+        }
+        .icon{
+            height: 40px;
+            width: 40px;
+            color: orange;
+            margin-top: 18px;
+        }
+        .box{
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="h-auto bg-[#222222] bg-cover flex justify-between items-center">
+        <!-- logo -->
+        <div>
+            <img src="Screenshot 2023-07-17 153105.png">
+        </div>
+        <!-- profile -->
+        <div class="flex items-center ">
+            <button
+                class="hidden md:inline-block p-1 m-1 text-center text-white bg-orange-500 rounded-md hover:bg-orange-300">Create
+                Acccount</button>
+            <span><i class="fa fa-user-circle-o" aria-hidden="true"></i></span>
+
+
+        </div>
+        <div class="md:hidden text-2xl text-white mr-1 ">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+
+
+
+
+
+    </header>
+    <!-- section page -->
+    <section class="lg:flex items-center justify-center text-white bg-[#222222]">
+        <div class="lg:w-1/2 lg:ml-6">
+            <h1 class="mb-5 lg:text-[4rem] text-[50px]">Multi-regulated global broker</h1>
+            <p class="mt-5 lg:text-lg md:text-sm">A trusted destination for traders worldwide,Authorised by FCA,ASIC &
+                FSCA.</p>
+            <button
+                class="mt-14 text-sm border-2 border-solid border-orange-500 p-3 text-center md:text-sm w-[100%] md:w-auto animate-bounce">DISCOVER
+                ACCOUNTS</button>
+        </div>
+        <div class="lg:w-1/2 sm:flex items-center justify-center">
+            <img src="Screenshot 2023-07-19 143314.png">
+        </div>
+
+    </section>
+
+
+
+
+    <!-- section2 page -->
+    <nav class="flex justify-between bg-[#222222]">
+        <p>Save time.Get <strong>higher return.</strong><br>Multiply wealth</p>
+        <button class=" py-2 px-3 text-sm text-center border-2 border-solid border-orange-500">FIND OUT MORE</button>
+
+    </nav>
+    <div class="card-holder bg-[#222222]">
+        <div class="card card1">
+            <img src="">
+            <h3 class="text-white text-lg">Various Assests</h3>
+            <p class="text-gray-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptatem
+                libero eum maxime enim, magnam magni rerum dolores cumque consequuntur?</p>
+        </div>
+        <div class="card card2">
+            <img src-="">
+            <h6 class="text-white text-lg">Various Assests</h6>
+            <p class="text-gray-200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptatem
+                libero eum maxime enim, magnam magni rerum dolores cumque consequuntur?</p>
+        </div>
+        <div class="card card3">
+            <img src-="">
+            <h6 class="text-white text-lg">Various Assests</h6>
+            <p class="text-gray-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus voluptatem
+                libero eum maxime enim, magnam magni rerum dolores cumque consequuntur?</p>
+        </div>
+    </div>
+
+
+
+    <!-- section 3 page -->
+    <section class="lg:flex justify-around flex-wrap">
+        <div class="lg:w-[40%] mb-6 mt-2">
+            <h1 class="text-[22px] mb-3">Expert Service</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptates labore quas. Fugiat, non
+                inventore?</p>
+            <h3 class="text-gray-400">Learn More</h3>
+        </div>
+        <div class=" lg:w-[40%] mb-6 mt-2">
+            <h1 class="text-[22px] mb-3">Fully Regulated</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptates labore quas. Fugiat, non
+                inventore?</p>
+            <h3 class="text-gray-400">Learn More..></h3>
+        </div>
+        <div class="lg:w-[40%] mb-6 mt-2">
+            <h1 class="text-[22px] mb-3">Financial Support </h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptates labore quas. Fugiat, non
+                inventore?</p>
+            <h3 class="text-gray-400">Learn More..></h3>
+        </div>
+        <div class="lg:w-[40%] mb-6 mt-2">
+            <h1 class="text-[22px] mb-3">Integrated support</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptates labore quas. Fugiat, non
+                inventore?</p>
+            <h3 class="text-gray-400">Learn More..></h3>
+        </div>
+    </section>
+
+
+
+    <!-- section 4 page -->
+    <form action="">
+        <fieldset class="border-2 border-solid border-orange-400 animate-pulse">
+            <legend class="text-center">Simple Steps To start Trade</legend>
+            <div class="lg:flex justify-around text-center ">
+                <div class="flex flex-col items-center box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="currentColor" class="bi bi-1-circle icon" viewBox="0 0 16 16">
+                        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z"/>
+                      </svg>
+                    <p class="mt-4 mb-3">Register your account</p>
+                </div>
+                <div class="flex flex-col items-center box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="currentColor" class="bi bi-2-circle icon" viewBox="0 0 16 16">
+                        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306Z"/>
+                      </svg>
+                    <p class="mt-4 mb-3">find your account</p>
+                </div>
+                <div class="flex flex-col items-center box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="currentColor" class="bi bi-3-circle icon" viewBox="0 0 16 16">
+                        <path d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318Z"/>
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
+                      </svg>
+                    <p class="mt-4 mb-3">start trade</p>
+                </div>
+            </div>
+        </fieldset>
+        
+    </form>
+
+</body>
+
+</html>
